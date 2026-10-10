@@ -14,7 +14,7 @@ public class Main {
             bankSystem.sortCustomerByBalance();
             System.out.println("*** after sorting ***");
             bankSystem.showAllCustomers();
-            System.out.println("****************");
+            System.out.println("***************");
             bankSystem.reportHighestBalance();
             bankSystem.saveData("bankData.txt");
             bankSystem.loadData("bankData.txt");
